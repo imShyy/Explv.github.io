@@ -3,12 +3,7 @@
 import { Position } from './model/Position.js';
 
 // Import controls
-import { CollectionControl } from './controls/collection_control.js';
-import { CoordinatesControl } from './controls/coordinates_control.js';
-import { LocalCoordinatesControl } from './controls/local_coordinates_control.js';
-import { RegionBaseCoordinatesControl } from './controls/region_base_coordinates_control.js';
 import { MapLabelControl } from './controls/map_label_control.js';
-import { PlaneControl } from './controls/plane_control.js';
 
 $(document).ready(function () {
 
