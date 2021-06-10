@@ -4,7 +4,6 @@ import { Position } from './model/Position.js';
 
 // Import controls
 import { MapLabelControl } from './controls/map_label_control.js';
-import { MapLabelControl } from './controls/map_label_control.js';
 
 $(document).ready(function () {
 
