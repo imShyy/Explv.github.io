@@ -28,7 +28,7 @@ $(document).ready(function () {
         if (map.tile_layer !== undefined) {
             map.removeLayer(map.tile_layer);
         }
-        map.tile_layer = L.tileLayer('https://raw.githubusercontent.com/Explv/osrs_map_tiles/master/' + map.plane + '/{z}/{x}/{y}.png', {
+        map.tile_layer = L.tileLayer('https://raw.githubusercontent.com/imShyy/osrs_map_tiles/master/' + map.plane + '/{z}/{x}/{y}.png', {
             minZoom: 4,
             maxZoom: 11,
             attribution: 'Map data',
